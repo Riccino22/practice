@@ -1,0 +1,162 @@
+body{
+    background-image: url("IMG/fondo1.png");
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+}
+
+
+
+#icon{
+    max-width: 200px;
+    min-height: 200px;
+    margin: auto;
+}
+
+#plantilla{
+    background: rgba(8, 8, 8, 0.671);
+    width: 100%;
+    min-width: 10px;
+    height: 1000px;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    position: absolute;
+}
+
+
+#ShapeDrawer{
+    border-style: none;
+    background-image: url("IMG/aguaMarina (2).png");
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block;
+    box-shadow: 10px 10px  rgba(14, 0, 0, 0.267);
+
+    
+}
+
+
+
+#desk{
+    border-style: none;
+    background-image: url("IMG/aguaMarina (2).png");
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block; 
+    box-shadow: 10px 10px rgba(14, 0, 0, 0.267);
+    margin-top: 10px;
+}
+
+
+
+#Axe{
+    border-style: none;
+    background-image: url("IMG/aguaMarina (1).png");
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block; 
+    box-shadow: 10px 10px rgba(14, 0, 0, 0.267);
+}
+
+
+#desk:hover{
+    background-image: var(--hiperWidth) !important;
+}
+
+#Axe:hover{
+    background-image: var(--hiperWidth) !important;
+}
+
+#ShapeDrawer:hover{
+    background-image: var(--hiperWidth) !important;
+}
+
+
+
+
+#io{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    margin-top: -12rem;
+    margin-left: -31rem;
+}
+
+
+:root{
+    --hiperWidth: url("IMG/otroAzul.png");
+}
+
+
+
+
+/*REDES SOCIALES*/
+
+
+#facebook{
+    width: 50px;
+    height: 50px;
+    margin-top: -12rem;
+    margin-left: -28rem;
+    position: fixed;
+    cursor: pointer;
+}
+
+#WhatsApp{
+    width: 50px;
+    height: 50px;
+    margin-top: -12rem;
+    margin-left: -24.9rem;
+    position: fixed;
+    cursor: pointer;
+}
+
+
+
+/*TLF*/
+
+@media (max-width:900px){
+    body{
+        background-color: #070300ea;    
+    }
+
+    #icon{
+        margin: auto;
+    }
+
+    #facebook{
+        position: absolute;
+        margin-top: -8rem;
+        margin-left: 2.2rem;
+        width: 35px;
+        height: 35px;
+    }
+
+    #io{
+        position: absolute;
+        margin-left: 0;
+        margin-top: -8rem;
+        width: 35px;
+        height: 35px;
+    }
+
+    #WhatsApp{
+        position: absolute;
+        margin-left: 4.5rem;
+        margin-top: -8rem;
+        width: 35px;
+        height: 35px;
+    }
+}
